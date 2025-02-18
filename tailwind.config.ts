@@ -24,10 +24,6 @@ export default {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
-        // primary: {
-        //   DEFAULT: "hsl(var(--primary))",
-        //   foreground: "hsl(var(--primary-foreground))",
-        // },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -48,54 +44,54 @@ export default {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         chart: {
-          "1": "hsl(var(--chart-1))",
-          "2": "hsl(var(--chart-2))",
-          "3": "hsl(var(--chart-3))",
-          "4": "hsl(var(--chart-4))",
-          "5": "hsl(var(--chart-5))",
+          "1": "#6A5ACD", // SlateBlue
+          "2": "#40E0D0", // Turquoise
+          "3": "#9370DB", // MediumPurple
+          "4": "#FF69B4", // HotPink
+          "5": "#FFD700", // Gold
         },
         primary: {
-          DEFAULT: "#E7C9A5",
-          admin: "#25388C",
+          DEFAULT: "#80D0C7", // Deep Purple
+          admin: "#2E1A47", // Darker Shade
         },
         green: {
-          DEFAULT: "#027A48",
-          100: "#ECFDF3",
-          400: "#4C7B62",
-          500: "#2CC171",
-          800: "#027A48",
+          DEFAULT: "#00A36C", // Jade Green
+          100: "#D4F1F4",
+          400: "#5F9EA0",
+          500: "#008B8B",
+          800: "#004C4C",
         },
         red: {
-          DEFAULT: "#EF3A4B",
-          400: "#F46F70",
+          DEFAULT: "#E63946", // Coral Red
+          400: "#F08080",
           500: "#E27233",
-          800: "#EF3A4B",
+          800: "#8B0000",
         },
         blue: {
-          100: "#0089F1",
+          100: "#4169E1", // Royal Blue
         },
         light: {
-          100: "#D6E0FF",
-          200: "#EED1AC",
-          300: "#F8F8FF",
-          400: "#EDF1F1",
-          500: "#8D8D8D",
+          100: "#F8E8EE", // Soft Pink
+          200: "#E0C3FC", // Pastel Purple
+          300: "#E6E6FA", // Lavender
+          400: "#D0E6F0", // Sky Blue
+          500: "#C5D5E4", // Soft Steel
           600: "#F9FAFB",
           700: "#E2E8F0",
           800: "#F8FAFC",
         },
         dark: {
-          100: "#16191E",
-          200: "#3A354E",
-          300: "#232839",
-          400: "#1E293B",
-          500: "#0F172A",
-          600: "#333C5C",
+          100: "#1B1B2F", // Midnight Blue
+          200: "#162447", // Deep Navy
+          300: "#1F4068", // Dark Blue
+          400: "#1B2A41", // Muted Indigo
+          500: "#0F172A", // Deep Night
+          600: "#4B527E",
           700: "#464F6F",
           800: "#1E2230",
         },
         gray: {
-          100: "#CBD5E1",
+          100: "#BFC0C0",
         },
       },
       screens: {
